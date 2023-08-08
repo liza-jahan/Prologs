@@ -1,0 +1,3 @@
+listlength([],0).
+listlength([_|TAIL],N) :- list_length(TAIL,N1),
+    N is N1 + 1.

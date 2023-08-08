@@ -1,0 +1,5 @@
+count(10):- write(10),nl.
+count(A):-
+write(A),nl,
+B is A + 1,
+count(B).
